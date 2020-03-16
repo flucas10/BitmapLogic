@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bitmap Logic Simulator</title>
+        <style>
+            body {background-color: #000; color: #FFF;}
+            #canvas {width: 512px; height: 512px; image-rendering: optimizeSpeed;}
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <input type="file" onchange="Event(this.files[0]);">
+        <div id="div"></div>
+        <script src="bitmap_logic.js"></script>
+    </body>
+</html>
